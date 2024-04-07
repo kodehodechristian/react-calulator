@@ -1,0 +1,43 @@
+.key {
+  cursor: pointer;
+  height: 64px;
+  border-radius: 5px;
+  border: none;
+  color: #434a59;
+  background-color: #eae3dc;
+  box-shadow: inset 0 -4px 0 #b3a497;
+  font-size: 28px;
+  line-height: 31px;
+  text-transform: uppercase;
+}
+
+.key:active {
+  background-color: #fffffe;
+}
+
+.resetKey {
+    grid-column: span 2;
+}
+
+.delKey,
+.resetKey {
+  background-color: #647198;
+  color: #ffffff;
+  box-shadow: inset 0 -4px 0 #414e73;
+}
+
+.delKey:active,
+.resetKey:active {
+  background-color: #a2b2e1;
+}
+
+.equalKey {
+  background-color: #d03f2f;
+  color: #ffffff;
+  box-shadow: inset 0 -4px 0 #93261a;
+  grid-column: span 2;
+}
+
+.equalKey:active {
+  background-color: #f96b5b;
+}

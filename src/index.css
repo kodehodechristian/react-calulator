@@ -1,0 +1,53 @@
+body,
+html,
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #3a4663;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 700;
+}
+
+input,
+button {
+  font: inherit;
+}
+
+.calculator {
+  width: 80vw;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 300px) {
+  .calculator {
+    width: 85vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .calculator {
+    width: 500px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .calculator {
+    width: 500px;
+  }
+}
