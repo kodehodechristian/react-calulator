@@ -1,12 +1,8 @@
-import PropTypes from 'prop-types';
-import styles from './Display.module.css';
+import PropTypes from "prop-types";
+import styles from "./Display.module.css";
 
 const Display = ({ value }) => {
-  return (
-    <div className={styles.display}>
-      {value}
-    </div>
-  );
+  return <div className={styles.display}>{value}</div>;
 };
 
 Display.propTypes = {
